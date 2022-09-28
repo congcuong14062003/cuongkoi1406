@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LẬP WEB BAN NHẠC</title>
+    <link rel="icon" href="data:image/jpeg;base64,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" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- reponsive phải viết trc -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/themify-icons-font/themify-icons/themify-icons.css">
+   
+</head>
+<body>
+  
+
+    
+    
+    <div id="main">
+        <div id="header">
+            <!-- begin: nav -->
+    <ul id="nav">
+        <li><a href="#">home</a></li>
+        <li>
+            <a href="#band">band</a>
+     
+        <li><a href="#tour">TouR</a></li>
+        <li>
+            <a href="#contact">ConTACT</a>
+  
+        </li>
+        <li>
+            <a href="#">
+                MORE
+               <i class="nav-arrow-down ti-angle-down"></i>
+             
+            </a>
+            <ul class="subnav">
+                <li><a href="#">Merchandise</a></li>
+                <li><a href="#">Extras</a></li>
+                <li><a href="#">Media</a></li>
+            
+            </ul>
+        </li>
+    </ul>
+    <!-- end-nav -->
+
+    <!-- mobile menu btn -->
+    <div id="mobile-menu" class="mobile-menu-btn">
+        <i class="menu-icon ti-menu"></i>
+    </div>
+   <!-- search-button -->
+    <div class="search-btn">
+        <i class="search-icon ti-search"></i>
+    </div>
+
+   
+        </div>
+    
+        <div id="slider">
+         
+    
+         <div class="text-content">
+       
+     
+            <h2 class="text-heading">Japan</h2>
+           <div class="text-description">
+           Thank you, Japan - A night we won't forget.
+           </div>
+         </div>
+        
+        </div>
+    
+        <div id="content">
+        <!-- phần1 chung -->
+    <div id="band" class="content-section">
+    <h2 class="section-heading">MY IDOL</h2>
+    <p class="section-sub-heading">We love JAV</p>
+    <p class="about-text">Tại Nhật Bản ngành công nghiệp phim người lớn được xem là chính thống và được công nhận hợp pháp vì thế nó rất phổ biến ở Nhật và đem lại nguồn lợi nhuận vô cùng lớn cho nền kinh tế đất nước này. Theo ước tính số lượng phim JAV Nhật Bản là rất lớn, vào năm 2012 trung bình nước này sản xuất ra 20.000 bản, tức là mỗi ngày sẽ có hơn 100 sản phẩm phim người lớn ra đời, và con số này luôn có xu hướng tăng lên.
+    
+    </p>
+    <div class="row ban-list">
+        <div class=" s-col-full mt-32 col col-third text-center">
+            <p class="member-name">Melody Mark<br/> Date of birth: 29/02/2000<br/> Nation: USA<br/> MTR: 81, 66, 86 <br/> Weight: 48kg<br/> Height: 160cm
+    
+            </p>
+            <img src="./assets/img/melody.mark.jpg" alt="Name" class="member-img">
+        </div>
+        <div class="s-col-full mt-32 col col-third text-center">
+            <p class="member-name">Eimi Fukada<br/> Date of birth: 18/03/1998<br/> Nation: JAPAN<br/> MTR: 85, 59, 91 <br/> Weight: 50kg<br/> Height: 173cm</p>
+            <img src="./assets/img/emi fukada.jpg" alt="Name" class="member-img">
+        </div>
+        <div class="s-col-full mt-32 col col-third text-center">
+            <p class="member-name">Yue Mikami<br/> Date of birth: 29/02/1993<br/> Nation: JAPAN<br/> MTR: 83, 60, 88 <br/> Weight: 49kg<br/> Height: 159cm</p>
+            <img src="./assets/img/yua-mikami-a.jpg" alt="Name" class="member-img">
+        </div>
+    
+    </div>
+    </div>
+    <div id="tour" class="tour-section">
+    
+        <!-- phần2 chung -->
+        <div class="content-section">
+          <h2 class="section-heading text-white">TOUR DATES</h2>
+          <p class="section-sub-heading  text-white">Remember to book your idol!</p>
+         <!-- tickets -->
+          <ul class="ticket-list">
+    
+             <li>Semtemper <span class="sold-out">Sold out</span></li>
+             <li>October <span class="sold-out">Sold out</span></li>
+             <li>November <span class="quantity">3</span></li>
+         </ul>
+         <!-- places -->
+    <div class="row places-list">
+        <div class="col col-third s-col-full col-mobile-ticket">
+        <img src="/CUONG.THEBAND/assets/img/newyork.jpg" alt="" class="place-img">
+            <div class="place-content">
+             <h3 class="place-heading">New York</h3>
+             <p class="place-time">Fri 27 Nov 2021</p>
+             <p class="place-dec">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+        <button class="btn s-full-width js-buy-ticket">Buy Tickets</button>
+    
+            </div>
+        </div>
+        <div class="col col-third s-col-full col-mobile-ticket">
+        <img src="/CUONG.THEBAND/assets/img/paris.jpg" alt="" class="place-img">
+        
+            <div class="place-content">
+            
+             <h3 class="place-heading">Paris</h3>
+             <p class="place-time">Sat 28 Nov 2021</p>
+             <p class="place-dec">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+        <button class="btn s-full-width js-buy-ticket ">Buy Tickets</button>
+            </div>
+        </div>
+            
+            <div class="col col-third s-col-full col-mobile-ticket">
+              <img src="/CUONG.THEBAND/assets/img/sanfran.jpg" alt="" class="place-img">
+                  <div class="place-content">
+                   <h3 class="place-heading">San Francisco</h3>
+                   <p class="place-time">Sun 29 Nov 2021</p>
+                   <p class="place-dec">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+              <button class="btn s-full-width js-buy-ticket">Buy Tickets</button>
+          
+                  </div>
+              </div>
+          
+            </div>
+              </div>
+          </div>
+          
+          <!-- begin contactsection -->
+            <div id = contact class="content-section">
+              <h2 class="section-heading">CONTACT</h2>
+              <p class="section-sub-heading">Fan? Drop a note!</p>
+        
+        <!-- row -->
+              <div class="row contact-content">
+        <div class="col col-half s-col-full contact-infor">
+            <p><i class="ti-location-pin"></i>ToKyo, JAPAN</p>
+            <p><i class="ti-mobile"></i>Phone: <a href="tel:+84369302191">+84369302191</a></p>
+            <p><i class="ti-email"></i>Email: <a href="mailto:cuongkoi@gmail.com">cuongkoi@gmail.com</a></p>
+             </div>
+         <div class="col col-half s-col-full contact-form">
+    <form action="">
+        <div class="row">
+    <div class="col col-half s-col-full">
+        <input type="text" name="" placeholder="Name" required id="" class="form-control">
+    </div>
+    <div class="col col-half s-col-full">
+        <input type="email" name="" placeholder="Email" required id="" class="form-control">
+    </div>
+        </div>
+        <div class="row">
+            <div class="col col-full ">
+               <input type="text" name="" placeholder="Message" required  id="" class="form-control">
+              </div>
+                </div>
+                  <input class="btn pull-right nutsend s-full-width " type="submit" value="SEND">
+            </form>
+             </div>
+         </div>
+       </div>
+       <!-- end -->
+
+       <div class="map-section">
+           <img src="/CUONG.THEBAND/assets/img/map.jpg" alt="map">
+       </div>
+    
+    </div>
+    
+    
+    
+          <!-- phan footer de javascrip -->
+          <div id="footer">
+    <div class="mxh">
+        <a href=""><i class="ti-facebook"></i></a>
+        <a href=""><i class="ti-instagram"></i></a>
+        <a href=""><i class="ti-youtube"></i></a>
+        <a href=""><i class="ti-pinterest"></i></a>
+        <a href=""><i class="ti-twitter"></i></a>
+        <a href=""><i class="ti-linkedin"></i></a>
+    </div>
+    <p class="copy-right">Powered by <a href="">w3.css</a></p>
+          </div>
+    </div>
+    <div class="modal js-modal">
+       <div class="modal-container js-modal-container">
+        <div class="modal-close js-modal-close">
+            <i class="ti-close"></i>
+    
+        </div>
+        <header class="modal-header">
+            <i class="icon ti-bag"></i>
+            Tickets
+        </header>
+        <div class="modal-body">
+            <label for="quantity" class="modal-label">
+                <i class="ti-shopping-cart"></i>
+                Tickets, $15 per person
+            </label>
+            <input id= "quantity"type="text" class="modal-input" placeholder="How many?">
+            <label for="t-email" class="modal-label">
+                <i class="ti-user"></i>
+                Send To
+            </label>
+            <input id="t-email" type="email" class="modal-input" placeholder="Enter email">
+        <button id="buy-tickets">Pay
+            <!-- button chính là cái hộp ý -->
+            <i class="ti-check"></i>
+        </button>
+        
+        </div>
+        <footer class="modal-footer">
+            <p class="modal-help">Need <a href="">help?</a></p>
+        </footer>
+    
+    
+    
+       
+        </div>
+    
+    </div>
+    
+
+          
+              
+            <script>
+    
+            </script>
+          
+              
+              
+          <script>
+         const buyBtns = document.querySelectorAll('.js-buy-ticket')
+         const modal = document.querySelector('.modal')
+         const modalContainer = document.querySelector('.js-modal-container')
+         const modalClose = document.querySelector('.js-modal-close')
+        
+       
+         //  ham hien thi modal mua ve (them class open vaof modal)
+         function showBuyTickets() {
+            modal.classList.add('open')
+         }
+        //  ham an modal mua ve(go bo class open cua modal)
+         function hideBuyTickets() {
+            modal.classList.remove('open')
+         }
+         for (const buyBtn of buyBtns) {
+        buyBtn.addEventListener('click', showBuyTickets)
+     }
+    //  nghe hanh vi click vao buton colse
+     modalClose.addEventListener('click',  hideBuyTickets)
+      modal.addEventListener('click',   hideBuyTickets)  
+        
+      modalContainer.addEventListener('click', function(event) {
+      event.stopPropagation()
+      })
+        
+        </script>
+           
+<script>
+    var header = document.getElementById('header');
+    
+    var mobileMenu = document.getElementById('mobile-menu');
+var headerHeight = header.clientHeight;
+//   đóng mở mobile menu
+mobileMenu.onclick = function() {
+ var isClosed = header.clientHeight === headerHeight;
+if (isClosed) {
+    header.style.height = 'auto';
+} else {
+    header.style.height = null ;
+    // hoac 46px
+}
+}
+// tự động đóng khi chọn menu
+var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+for (var i = 0; i < menuItems.length; i++) {
+    var menuItem = menuItems[i];
+
+    menuItem.onclick = function(event) {
+        var isParentMenu  = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav')
+        if (isParentMenu) {
+            event.preventDefault();
+     
+     } else {
+        header.style.height = null ;  
+     }
+    }
+}
+
+    // mobile-menu
+
+</script>
+</body>
+      </html>
+    
+        
+         
+  
+  
+  
